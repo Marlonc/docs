@@ -16,13 +16,13 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`8.1`, `8`](https://github.com/oracle/container-images/blob/090c41832c757a0ebe2d0bb59b2d39c0edc31ac8/8.1/Dockerfile)
--	[`8.0`](https://github.com/oracle/container-images/blob/090c41832c757a0ebe2d0bb59b2d39c0edc31ac8/8.0/Dockerfile)
--	[`8-slim`](https://github.com/oracle/container-images/blob/090c41832c757a0ebe2d0bb59b2d39c0edc31ac8/8-slim/Dockerfile)
--	[`7.7`, `7`, `latest`](https://github.com/oracle/container-images/blob/090c41832c757a0ebe2d0bb59b2d39c0edc31ac8/7.7/Dockerfile)
--	[`7-slim`](https://github.com/oracle/container-images/blob/090c41832c757a0ebe2d0bb59b2d39c0edc31ac8/7-slim/Dockerfile)
--	[`6.10`, `6`](https://github.com/oracle/container-images/blob/090c41832c757a0ebe2d0bb59b2d39c0edc31ac8/6.10/Dockerfile)
--	[`6-slim`](https://github.com/oracle/container-images/blob/090c41832c757a0ebe2d0bb59b2d39c0edc31ac8/6-slim/Dockerfile)
+-	[`8.1`, `8`](https://github.com/oracle/container-images/blob/5aa9756ecf67386d96d15a3b8422d6c9fa7b948e/8.1/Dockerfile)
+-	[`8.0`](https://github.com/oracle/container-images/blob/5aa9756ecf67386d96d15a3b8422d6c9fa7b948e/8.0/Dockerfile)
+-	[`8-slim`](https://github.com/oracle/container-images/blob/5aa9756ecf67386d96d15a3b8422d6c9fa7b948e/8-slim/Dockerfile)
+-	[`7.7`, `7`, `latest`](https://github.com/oracle/container-images/blob/5aa9756ecf67386d96d15a3b8422d6c9fa7b948e/7.7/Dockerfile)
+-	[`7-slim`](https://github.com/oracle/container-images/blob/5aa9756ecf67386d96d15a3b8422d6c9fa7b948e/7-slim/Dockerfile)
+
+[![arm64v8/oraclelinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/oraclelinux.svg?label=arm64v8/oraclelinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/oraclelinux/)
 
 # Quick reference
 
@@ -57,7 +57,7 @@ Oracle Linux is an open-source operating system available under the GNU General 
 
 ## How to use these images
 
-The Oracle Linux images are intended for use in the **FROM** field of a downstream `Dockerfile`. For example, to use the latest optimized Oracle Linux 7 image, specify `FROM oraclelinux:7-slim`.
+The Oracle Linux images are intended for use in the **FROM** field of a downstream `Dockerfile`. For example, to use the latest optimized Oracle Linux 7 image, specify `FROM arm64v8/oraclelinux:7-slim`.
 
 ## Official Resources
 
